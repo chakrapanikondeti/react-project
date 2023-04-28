@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Registerform from "./components/Registerform";
 import ParentComponent from "./components/ParentComponent";
 import Child1 from "./components/child1";
+import Loginform from "./components/Loginform";
 function App() {
   return (
     <>
@@ -13,7 +14,8 @@ function App() {
       <Contact />
       <Registerform /> */}
       {/* <ParentComponent /> */}
-      <Child1 />
+      {/* <Child1 /> */}
+      <Loginform />
     </>
   );
 }

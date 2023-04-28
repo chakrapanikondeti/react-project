@@ -33,12 +33,12 @@ import Child2 from "./child2";
 //     </>
 //   );
 // }
-export default function ParentComponent() {
-  const [isChecked, setIsChecked] = useState(false);
-  return (
-    <>
-      <input type="checkbox" />
-      {isChecked ? <Child2 /> : <Child1 />}
-    </>
-  );
-}
+// export default function ParentComponent() {
+//   const [isChecked, setIsChecked] = useState(false);
+//   return (
+//     <>
+//       <input type="checkbox" onChange={() => setIsChecked(!isChecked)} />
+//       {isChecked ? <Child2 /> : <Child1 />}
+//     </>
+//   );
+// }
